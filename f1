@@ -10,3 +10,5 @@ data 3 in dev rebase
 data in master before merging
 ----------------
 data in master before rebase
+-------------------------
+data in master after commit in dev
