@@ -1,0 +1,31 @@
+mvn clean - The mvn clean command in Maven is used to remove the target directory and all the build artifacts contained within it.
+mvn compiler:compile - The mvn compiler:compile command in Maven is used to compile the source code of a Maven project. It is part of the Maven Compiler Plugin, which handles the task of compiling Java source files.
+mvn compiler:testCompile : The mvn compiler:testCompile command in Maven is used to compile the test source code of a Maven project. It is part of the Maven Compiler Plugin, which manages the compilation of both main and test source files.
+mvn package : The mvn package command in Maven is used to compile the code, run the tests, and package the compiled code and other resources into a distributable format, such as a JAR, WAR, or EAR file. This command is a key part of the Maven build life cycle, typically used to create an artifact that can be deployed or distributed.
+mvn install : The mvn install command in Maven is used to compile the code, run tests, and package the compiled code and other resources into a JAR, WAR, or other artifact, and then install that artifact into the local Maven repository.
+mvn deploy : The mvn deploy command in Maven is used to compile the code, run tests, package the artifact, and then deploy the packaged artifact to a remote repository. This remote repository is typically used for sharing the artifact with other developers or systems, and it can be a private repository within an organization or a public repository like Maven Centra.
+mvn validate : The mvn validate command in Maven is used to validate the project structure and configuration. This command checks the project for correctness before starting the build process. It ensures that all necessary information is available and correct before proceeding to subsequent phases of the build life cycle.
+mvn dependency:tree -- The mvn dependency:tree command in Maven is used to display the dependency tree for a project. This command is part of the Maven Dependency Plugin, and it provides a visual representation of the project's dependencies, including transitive dependencies, in a tree format.
+mvn dependency:analyze -- The mvn dependency:analyze command in Maven is used to analyze the dependencies of a project to identify unused declared dependencies and detect used but undeclared dependencies. This command is part of the Maven Dependency Plugin, and it helps ensure that your pom.xml file accurately reflects the actual dependencies of your project.
+mvn archetype:generate -- The mvn archetype:generate command in maven is used for generating a new Maven project from an existing project template that is called an archetype.
+mvn site:site -- The mvn site:site command in Maven generates the project's site documentation. This command is part of the Maven Site Plugin, which is used to generate a website or documentation for your project.
+mvn test -- The mvn test command in Maven is used to execute the tests in a Maven project. When you run mvn test, Maven will compile the project's source code and then execute the test cases present in the project using a testing framework like JUnit or TestNG.
+mvn compile -- The mvn compile command in Maven is used to compile the source code of a Maven project. When you run mvn compile, Maven compiles the Java source files located in the src/main/java directory of your project.
+mvn verify -- The mvn verify command in Maven is used to run any checks on the results of integration tests to ensure quality criteria are met. This command is invoked in the integration test phase and is typically used to perform additional checks on the project after the integration tests have been executed.
+mvn -help -- The mvn -help command in Maven is used to display basic usage information and options available for the Maven command-line interface. It provides a summary of commonly used Maven commands and options.
+mvn -X package -- The command mvn -X package invokes Maven in debug mode (-X) and executes the package goal.
+mvn -v -- The mvn -v command in Maven is used to display version information about Maven itself, including the Maven version, Java version, and operating system information.
+mvn -Dmaven.test.skip=true package -- The command mvn -Dmaven.test.skip=true package is used to skip running tests during the packaging phase while building a Maven project. The -D option is used to define a system property, and in this case, maven.test.skip is set to true, which instructs Maven to skip executing tests. After skipping the tests, the package goal is executed, which involves compiling the source code and packaging the project into an artifact.
+mvn -T 4 clean install -- The command mvn -T 4 clean install is used to build a Maven project with multi-threading enabled. Specifically, -T 4 instructs Maven to use four threads for the build process..
+
+
+
+
+
+
+
+
+
+
+
+

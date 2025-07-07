@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 data1
 --------------
 data 1 in dev
@@ -12,3 +13,6 @@ data in master before merging
 data in master before rebase
 -------------------------
 data in master after commit in dev
+=======
+data 1
+>>>>>>> 83378e50db2ac5548c1ec302881fc00bd128d805
