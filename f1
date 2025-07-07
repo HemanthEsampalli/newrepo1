@@ -1,1 +1,18 @@
+data1
+--------------
+data 1 in dev
+data 2 in dev
+data 3 in dev
+--------------
+data 1 in dev rebase
+data 2 in dev rebase
+data 3 in dev rebase
+data in master before merging
+----------------
+data in master before rebase
+-------------------------
+data in master after commit in dev
 data 1
+data 1 in dev
+232323
+555555
