@@ -13,3 +13,4 @@ data in master before rebase
 -------------------------
 data in master after commit in dev
 data 1
+data 1 in dev
