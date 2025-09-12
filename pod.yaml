@@ -8,10 +8,10 @@ spec :
   containers :
     - name : stress
       image : progrium/stress:latest
-ports :
-  - containers : 80
-    protocol : TCP
-    command : ["--vm", "2", "--vm-bytes", "125M"]
+      ports :
+        - containers : 80
+          protocol : TCP
+          command : ["--vm", "2", "--vm-bytes", "125M"]
 resources :
   requests :
     cpu : 150M
