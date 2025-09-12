@@ -8,7 +8,7 @@ spec:
   containers:
     - name: stress
       image: progrium/stress:latest
-      command: ["--vm", "2", "--vm-bytes", "120M"]
+      command: ["--vm", "1", "--vm-bytes", "200M"]
       ports:
         - containerPort: 80
           protocol: TCP
