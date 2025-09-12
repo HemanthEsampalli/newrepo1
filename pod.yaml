@@ -11,11 +11,11 @@ spec :
 ports :
   - containers : 80
     protocol : TCP
-    command : ["--vm", "2", "--vm-bytes", "120M"]
+    command : ["--vm", "2", "--vm-bytes", "125M"]
 resources :
   requests :
     cpu : 150M
     memory : 100mi
   limits : 
   cpu : 200M
-  memory :150Mi
+  memory : 150Mi
